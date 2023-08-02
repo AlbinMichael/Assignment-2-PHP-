@@ -1,0 +1,87 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Kablammo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Karla:wght@200&family=Nunito+Sans:wght@200&family=Oswald&family=Rubik+Puddles&family=Yuji+Hentaigana+Akari&display=swap");
+html {
+  height: 100%;
+}
+.body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    323deg,
+    rgb(61, 77, 3) 0%,
+    rgb(79, 181, 38) 33%,
+    rgb(194, 23, 45) 65%
+  );
+  height: 100%;
+  width: 100%;
+}
+.index_body {
+  height: 100%;
+}
+.index_main {
+  height: 68%;
+}
+.container {
+  margin-top: 100px;
+}
+.color{
+  background-color: bisque;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: bisque;
+  padding: 30px 30px;
+  font-family: "Dancing Script", cursive;
+  margin-top: 125px;
+}
+.p_sign {
+  margin-top: 50px;
+}
+.logo {
+  font-family: "Kablammo", cursive;
+}
+.header {
+  height: 30px;
+}
+
+.btn {
+  padding: 2px 2px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.signIn_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.signIn_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 400px;
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+  background: rgb(0, 212, 255);
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgb(197, 41, 41) 3%,
+    rgb(138, 138, 141) 24%,
+    rgb(139, 60, 69) 61%
+  );
+}
+.text {
+  color: white;
+}
+.submit_btn {
+  margin-top: 10px;
+  padding: 5px 30px;
+}
